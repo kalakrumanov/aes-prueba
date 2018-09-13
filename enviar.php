@@ -74,6 +74,19 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
+// Viendo errores de email
+<?php
+    ini_set( 'display_errors', 1 );
+    error_reporting( E_ALL );
+    $from = $email_from;
+    $to = $email_to;
+    $subject = $email_subject . "ejemplo abajo";
+    $message = $email_message;
+    $headers = "From:" . $email_from;
+    mail($email_to, $email_subject, $email_message, $headers);
+    echo "The email message was sent.";
+?>
+
 <!-- place your own success html below -->
 
 Thank you for contacting us. We will be in touch with you very soon.
