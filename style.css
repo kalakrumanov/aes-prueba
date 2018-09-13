@@ -54,6 +54,12 @@ body {
 	text-align: center;
 }
 
+.titulo a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
 #titulo7 {
 	font-family: 'NeoPrintM319', sans-serif;
 }
