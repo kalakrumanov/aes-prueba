@@ -6,6 +6,8 @@ if(isset($_POST['email'])) {
     $hostingmail="nwytg.net";
     $email_to = $usermail . "@" . $hostingmail;
 
+    print($email_to);
+
     $email_subject = "website html form submissions";
 
 
