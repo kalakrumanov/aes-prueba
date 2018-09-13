@@ -39,6 +39,7 @@
   src: url('NeoPrintM319.otf') format('truetype');
 }
 
+
 body {
   font-family: 'Fjalla One', sans-serif;
 
@@ -47,6 +48,23 @@ body {
 
   background-image: url("background2.jpg");
   background-size: cover;
+}
+
+#note {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+    z-index: 101;
+    left: 0;
+    right: 0;
+    background: #fde073;
+    color: black;
+    text-align: center;
+    line-height: 2.5;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow:    0 0 5px black;
+    box-shadow:         0 0 5px black;
 }
 
 .titulo {
@@ -131,8 +149,8 @@ main {
   font-size: 15px;
 
  margin-right: 2vw;
-  margin-left: 1vw;
-    width: 220px;
+  margin-left: 2vw;
+    width: 300px;
 
 /*
  margin-right: 2vw;
