@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 
     // CHANGE THE TWO LINES BELOW
-    $usermail="d3987116";
+    $usermail="d4046223";
     $hostingmail="nwytg.net";
     $email_to = $usermail . "@" . $hostingmail;
 
